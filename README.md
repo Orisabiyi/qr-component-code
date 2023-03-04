@@ -24,10 +24,13 @@ I was able to understand the BEM methodolody(BLOCK ELEMENT MNODIFIER) since am j
 
 ## Author
 
-Author Name - Orisabiyi David
+- Author Name - Orisabiyi David
 - Frontend Mentor - (https://www.frontendmentor.io/profile/Orisabiyi)
 
 
 ## Links
 - Solution URL - https://github.com/Orisabiyi
 - Live Site URL - 
+
+## NOTICE
+This website is only optimized for Desktop and Mobile(ranging from 0 - 376).
