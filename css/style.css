@@ -1,3 +1,13 @@
+:root {
+    --color-primary: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color--grayish-blue: hsl(220, 15%, 55%);
+    --color--grayish-blue-transparent: hsla(219, 15%, 55%, 0.296);
+    --color-dark-blue: hsl(218, 44%, 22%);
+
+    --default-font-size: 1.5rem;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,86 +15,59 @@
 }
 
 html {
+    box-sizing: border-box;
     font-size: 62.5%;
 }
 
 body {
-    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-}
-
-.background {
+    font-size: var(--default-font-size);
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-dark-blue);
+    background-color: var(--color--grayish-blue-transparent);
     position: relative;
-    background-color: hsla(217, 45%, 22%, 0.19);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
+    background-color: var(--color-primary);
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 1rem .5rem;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    width: 22%;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 2rem;
 }
 
-.container__scan {
-    width: 90%;
-    margin: 0 auto;
+.image-box {
+    width: 93%;
+    margin: auto;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    background-color: red;
+
+    display: flex;
 }
 
-.container__scan-image {
+.image-box__image-icon {
     width: 100%;
-    margin-top: 1.5rem;
-    border-radius: 1rem;
+    height: 100%;
 }
 
-.primary-header {
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-    text-align: center;
+.text-box {
     width: 90%;
-    margin: 0 auto;
-    padding: 1.5rem 0;
-}
-
-.primary-header--content {
-    display: block;
-}
-
-.primary-header__content:not(:last-child) {
-    margin-bottom: 2px;
-}
-
-.container__paragraph {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: hsl(220, 15%, 55%);
+    margin: 2rem auto;
     text-align: center;
-    padding: 0 3rem;
-    margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 23.5em) {
-    
-    .background {
-        width: 100vw;
-    }
+.heading-primary {
+    font-size: 2.2rem;
+    color: var(--color-dark-blue);
+}
 
-    .container {
-        width: 80%;
-    }
-
-    .primary-header {
-        font-size: 2rem;
-        padding: 1.8rem 0 0 0;
-    }
-
-    .container__paragraph {
-        padding: 1.5rem 3rem  3.5rem 3rem;
-        margin-bottom: 0;
-    }
+.paragraph {
+    margin-top: 1rem;
 }
