@@ -6,6 +6,7 @@
     --color-dark-blue: hsl(218, 44%, 22%);
 
     --default-font-size: 1.5rem;
+    --shadow-light: 0 1rem 2rem rgba(0, 0, 0, .2);
 }
 
 * {
@@ -40,6 +41,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: var(--shadow-light);
 }
 
 .image-box {
@@ -70,4 +72,27 @@ body {
 
 .paragraph {
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 50%;
+        
+    }
+}
+
+@media only screen and (max-width: 24em) {
+
+    body {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 40rem;
+        padding: 2rem 1rem;
+    }
+
+    .heading-primary {
+        font-size: 3rem;
+    }
 }
