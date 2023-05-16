@@ -1,31 +1,29 @@
-# QR code component layout
+# QR CARD COMPONENT LAYOUT
 
-## This project is a QR component used for testing my layout skill
+## This project is a card component you can use to get to frontend mentor for web projects by scanning the qr code in the page.
 
 ## Overview
 
-* Centering of object
-* Centering of image
-* Aligning of text
+* CARD COMPONENT LAYOUT
+* QR CODE SCANNER
+* CENTER LAYOUT
+* FRONTEND MENTOR
 
-### Screenshot
+## Screenshot
 ![](screenshot/desktop-review.png)
 ![](screenshot/mobile-review.png)
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- vscode editor
-
-### What I learned
-
-I was able to understand the BEM methodolody(BLOCK ELEMENT MNODIFIER) since am just starting to learning, it awesome been equipped with such knowledge becuase it gives a very detailed information about a particular section or design in a web space.
 
 ## Author
 
 - Author Name - Orisabiyi David
 - Frontend Mentor - (https://www.frontendmentor.io/profile/Orisabiyi)
+
+## USER INSTRUCTIONS
+In order to view the final products of the code have written for this projects, you can click on the link in front of live site url in the link section.
+
+## DEVELOPER INSTRUCTIONS
+To make use of this code or view the written code for this webiste you can visit my github page @https://github.com/Orisabiyi to download the code. In case you find a bug in the development you can help possibly solve it and notify me at orisabiyidavid@gmail.com.
 
 
 ## Links
@@ -34,17 +32,11 @@ I was able to understand the BEM methodolody(BLOCK ELEMENT MNODIFIER) since am j
 
 ## MY PROCESS
 
-On coming across this layout project, I first thought of the various ways to make use to successfully produce a replicate of the page then move on to coding the layout. My thought process listed below;
-
-- The body will contain the background-color,
-- I then decided to create a container to accomodate all of the other components e.g the qr-image, text etc,
-- Then centered the container,  using the position, translate, top amd left properties,
-- Placed the image in a container to center it using margin: auto; property
-- Decided to place the text in a container to create a clean code and also seperate both text from the image nicely and neatly.
-
-The above list is my thought process in short for comprenhensive understanding, you can check out my code from my github account which is above.
+- Created the html structure
+- The body element general styling
+- The body element a class of container to help center the card across the X and Y axis also for a more logical html and neater styling.
+- Decided to make the image dependent on the container.
+- Created a variable for the colors, fontsize and shadow using css variable.
 
 ## NOTICE
-This website is only optimized for Desktop and Mobile(ranging from 0 - 600).
-I majorly used th rem units for easy responsiveness of the page which lead to shorter code in my media query.
-I also used two breakpoints for my mobile view, one is for the recommended mobile view (375px) while the second is for all mobile view (600px).
+This website is mainly optimized for Desktop and Mobile view. I also used two breakpoints for my mobile view, one is for the recommended mobile view (375px) while the second is for all mobile view (600px).
