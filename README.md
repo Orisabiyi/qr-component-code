@@ -28,7 +28,7 @@ To make use of this code or view the written code for this webiste you can visit
 
 ## Links
 - Solution URL - https://github.com/Orisabiyi
-- Live Site URL - 
+- Live Site URL - https://orisabiyi.github.io/qr-component-code/
 
 ## MY PROCESS
 
