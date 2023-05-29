@@ -80,8 +80,11 @@ body {
 
 @media only screen and (max-width: 37.5em) {
     html {
-        font-size: 50%;
-        
+        font-size: 40%;
+    }
+
+    body {
+        line-height: 1.3;
     }
 }
 
