@@ -32,7 +32,7 @@ body {
     background-color: var(--color--grayish-blue-transparent);
 }
 
-.container {
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +90,7 @@ body {
     .card {
         flex: 0 0 auto;
         width: 55%;
+        padding: 2rem 1rem;
     }
 }
 
@@ -104,9 +105,8 @@ body {
     }
 
     .card {
-        
         width: 75%;
-        padding: 2rem 1rem;
+        
     }
 
     .heading-primary {
